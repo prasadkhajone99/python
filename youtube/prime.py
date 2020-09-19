@@ -1,7 +1,7 @@
-num=int(input("Enter the number"))
-for i in range(2,num):
-    if num%i==0:
+num = int(input("Enter the number"))
+for i in range(2, num):
+    if num % i == 0:
         print("Not prime number")
-        break;
+        break
 else:
-    print("Prime number")
+    print("Prime number found")
